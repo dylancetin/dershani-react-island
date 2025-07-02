@@ -14,8 +14,11 @@ importers:
       express:
         specifier: ^5.1.0
         version: 5.1.0
+      react:
+        specifier: ^19.1.0
+        version: 19.1.0
       react-dom:
-        specifier: '>=16.9.0'
+        specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
     devDependencies:
       '@eslint/js':
@@ -69,9 +72,6 @@ importers:
       globals:
         specifier: ^16.2.0
         version: 16.3.0
-      react:
-        specifier: ^19.1.0
-        version: 19.1.0
       storybook:
         specifier: ^9.0.13
         version: 9.0.15(@testing-library/dom@10.4.0)
