@@ -1,3 +1,9 @@
+# Dershani React Islands
+
+Bu proje dershani sitesindeki etkileşimli parçaların yazıldığı projedir.
+
+
+
 # Rslib project
 
 ## Setup
