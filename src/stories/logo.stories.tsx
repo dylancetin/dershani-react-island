@@ -1,9 +1,17 @@
-import Counter from "react_islands/logo";
+import '@/styles.css';
+import Logo from 'react_islands/logo';
 
-const Component = () => <Counter />;
+const Component = () => {
+  return (
+    <div className="w-full">
+      <Logo className="size-10 fill-blue-800" />
+      Dershanı logosu
+    </div>
+  );
+};
 
 export default {
-  title: "Dershani Logo",
+  title: 'Dershani Logo',
   component: Component,
 };
 

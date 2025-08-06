@@ -12,12 +12,12 @@
     "storybook": "storybook dev"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
     "@module-federation/rsbuild-plugin": "^0.15.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
-    "devDependencies": {
+  "devDependencies": {
     "@eslint/js": "^9.29.0",
     "@module-federation/storybook-addon": "^4.0.20",
     "@rsbuild/core": "~1.4.0",
@@ -31,13 +31,17 @@
     "@storybook/blocks": "^9.0.0-alpha.17",
     "@storybook/react": "^9.0.13",
     "@storybook/test": "^9.0.0-alpha.2",
+    "@tailwindcss/postcss": "^4.1.11",
     "@types/express": "^5.0.3",
     "@types/react": "^19.1.8",
     "eslint": "^9.29.0",
     "globals": "^16.2.0",
+    "prettier": "3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
     "storybook": "^9.0.13",
     "storybook-addon-rslib": "^2.0.2",
     "storybook-react-rsbuild": "^2.0.2",
+    "tailwindcss": "^4.1.11",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.34.1"
   }
